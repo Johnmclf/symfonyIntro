@@ -13,6 +13,17 @@ class StarshipRepository
 
     }
 
+    public function find(int $id): ?Starship
+    {
+        foreach ($this->findAll() as $starship) {
+            if ($starship->getId() === $id) {
+                $this->logger->info("Vaisseau spatial trouvé : {$starship->getName()}");
+                return $starship;
+            }
+        }
+        return null;
+    }
+
 
     public function findAll(): array
     {
