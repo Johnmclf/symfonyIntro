@@ -37,14 +37,14 @@ class StarshipRepository
                 status: 'under construction',
             ),
             new Starship(
-                id: 1,
+                id: 2,
                 name: 'USS Espresso (NCC-1234-C)',
                 class: 'Latte',
                 captain: 'James T. Quick!',
                 status: 'repaired',
             ),
             new Starship(
-                id: 1,
+                id: 3,
                 name: 'USS Wanderlust (NCC-2024-W)',
                 class: 'Delta Tourist',
                 captain: 'Kathryn Journeyway',
