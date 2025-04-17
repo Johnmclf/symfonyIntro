@@ -49,7 +49,7 @@ class StarshipRepository
                 name: 'USS Wanderlust (NCC-2024-W)',
                 class: 'Delta Tourist',
                 captain: 'Kathryn Journeyway',
-                status:  StarshipStatusEnum::WAITINNG,
+                status:  StarshipStatusEnum::WAITING,
             ),
         ];
     }
